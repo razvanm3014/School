@@ -12,7 +12,7 @@ public class Grade {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Integer grade_id;
-
+//
 
     Integer student_id;
     Integer class_id;
